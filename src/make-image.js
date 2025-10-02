@@ -1,7 +1,6 @@
 import ejs from "ejs";
 import path from "node:path";
-
-let content = "";
+import { stdinToString } from "./util.js";
 
 const templatePath = path.join(import.meta.dirname, "./gnuplot.ejs");
 
@@ -14,21 +13,13 @@ const data = {
   runs: [],
 };
 
-process.stdin.resume();
+const json = JSON.parse(await stdinToString());
 
-process.stdin.on("data", function (buf) {
-  content += buf.toString();
-});
+updateLabels(json);
 
-process.stdin.on("end", async function () {
-  const json = JSON.parse(content);
+data.runs = json["benchmarks"].map(processBenchmark);
 
-  updateLabels(json);
-
-  data.runs = json["benchmarks"].map(processBenchmark);
-
-  console.log(await ejs.renderFile(templatePath, data, {}));
-});
+console.log(await ejs.renderFile(templatePath, data, {}));
 
 function processBenchmark({ runs, alias, args }) {
   return {
