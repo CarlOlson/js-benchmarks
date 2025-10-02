@@ -1,4 +1,16 @@
 {
   "name": "js-benchmarks",
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "benchmark": "node --expose-gc --allow-natives-syntax",
+    "benchmark:jitless": "node --expose-gc --allow-natives-syntax --jitless"
+  },
+  "devDependencies": {
+    "@mitata/counters": "0.0.8",
+    "ejs": "3.1.10",
+    "is-interactive": "2.0.0",
+    "mitata": "1.0.34",
+    "prettier": "3.6.2"
+  },
+  "type": "module"
 }

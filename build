@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Example usage: gamemoderun sudo ./build
+
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+perf_event_paranoid=`cat /proc/sys/kernel/perf_event_paranoid`
+echo "perf_event_paranoid=$perf_event_paranoid"
+
+randomize_va_space=`cat /proc/sys/kernel/randomize_va_space`
+echo "randomize_va_space=$randomize_va_space"
+
+if [ "$perf_event_paranoid" -gt 2 ]; then
+    echo "`/proc/sys/kernel/perf_event_paranoid` has to be set to 2 or lower"
+    exit 1
+fi
+
+function cleanup(){
+    echo "Graceful exiting..."
+    echo "$randomize_va_space" > /proc/sys/kernel/randomize_va_space
+}
+trap cleanup EXIT
+
+echo 0 > /proc/sys/kernel/randomize_va_space
+
+for f in ./src/bench/*.js; do
+    echo "Running $f"
+    title=`basename -s .js "$f"`
+    yarn node --expose-gc --allow-natives-syntax "$f" \
+      | yarn node ./src/make-image.js "$title" "images/$title.svg" \
+      | gnuplot
+done

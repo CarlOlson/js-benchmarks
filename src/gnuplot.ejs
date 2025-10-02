@@ -1,0 +1,29 @@
+$data << END<% runs.forEach(({points}, index) => { %>
+# <%= index+1 %>
+# X Y<% points.forEach(([x, y]) => { %>
+<%= x %> <%= y %><% }) %>
+<% }) %>END
+
+set style line 1 linecolor rgb '#0000ff' linetype 1 linewidth 1 pointtype 1 pointsize 1
+set style line 2 linecolor rgb '#00ff00' linetype 1 linewidth 1 pointtype 2 pointsize 1
+set style line 3 linecolor rgb '#ff0000' linetype 1 linewidth 1 pointtype 3 pointsize 1
+
+set terminal svg size 800,600 enhanced font 'Verdana,12'
+
+set output '<%= output %>'
+set xlabel '<%= xlabel %>'
+set ylabel '<%= ylabel %>'
+
+set key left top
+
+set decimalsign locale ""
+set decimalsign ","
+
+set logscale x
+set format x "%'.0f"
+set xtics (<%= xtics.join(", ") %>)
+
+set title '<%= title %>'
+
+plot \<% runs.forEach(({name}, index) => { %>
+  $data index '<%= index+1 %>' title '<%= name %>' with linespoints linestyle <%= index+1 %><%= index < (runs.length - 1) ? ", \\" : "" %><% }) %>
