@@ -102,37 +102,37 @@
 	<path stroke='black'  d='M72.53,54.01 L72.53,542.40 L774.82,542.40 L774.82,54.01 L72.53,54.01 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
-	<g id="gnuplot_plot_1" ><title>Map.groupBy ($size/$groups)</title>
+	<g id="gnuplot_plot_1" ><title>Map.groupBy</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(441.69,75.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Verdana" >Map.groupBy ($size/$groups)</tspan></text>
+	<g transform="translate(307.45,75.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >Map.groupBy</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0,   0, 255)'  d='M450.08,72.01 L492.64,72.01 M180.04,541.82 L338.60,536.63 L497.16,477.32 L602.86,65.39 M180.04,542.17 L338.60,539.58
-		L497.16,509.69 L602.86,259.35  '/>	<use xlink:href='#gpPt0' transform='translate(180.04,541.82) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(338.60,536.63) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(497.16,477.32) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(602.86,65.39) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(180.04,542.17) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(338.60,539.58) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(497.16,509.69) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(602.86,259.35) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(471.36,72.01) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<path stroke='rgb(  0,   0, 255)'  d='M315.84,72.01 L358.40,72.01 M180.04,541.78 L338.60,536.29 L497.16,477.77 L602.86,73.50 M180.04,542.18 L338.60,539.47
+		L497.16,507.64 L602.86,280.33  '/>	<use xlink:href='#gpPt0' transform='translate(180.04,541.78) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(338.60,536.29) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(497.16,477.77) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(602.86,73.50) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(180.04,542.18) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(338.60,539.47) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(497.16,507.64) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(602.86,280.33) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(337.12,72.01) scale(4.50)' color='rgb(  0,   0, 255)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_2" ><title>Map groups from for-of-loop ($size/$groups)</title>
+	<g id="gnuplot_plot_2" ><title>Map groups from for-of-loop</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(441.69,93.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Verdana" >Map groups from for-of-loop ($size/$groups)</tspan></text>
+	<g transform="translate(307.45,93.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >Map groups from for-of-loop</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 255,   0)'  d='M450.08,90.01 L492.64,90.01 M180.04,542.17 L338.60,539.58 L497.16,509.69 L602.86,259.35  '/>	<use xlink:href='#gpPt1' transform='translate(180.04,542.17) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(338.60,539.58) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(497.16,509.69) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(602.86,259.35) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(471.36,90.01) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<path stroke='rgb(  0, 255,   0)'  d='M315.84,90.01 L358.40,90.01 M180.04,542.18 L338.60,539.47 L497.16,507.64 L602.86,280.33  '/>	<use xlink:href='#gpPt1' transform='translate(180.04,542.18) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(338.60,539.47) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(497.16,507.64) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(602.86,280.33) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(337.12,90.01) scale(4.50)' color='rgb(  0, 255,   0)'/>
 </g>
 	</g>
 <g fill="none" color="white" stroke="rgb(  0, 255,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">

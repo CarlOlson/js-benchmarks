@@ -102,60 +102,60 @@
 	<path stroke='black'  d='M72.53,54.01 L72.53,542.40 L774.82,542.40 L774.82,54.01 L72.53,54.01 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
-	<g id="gnuplot_plot_1" ><title>Map from array.map ($size)</title>
+	<g id="gnuplot_plot_1" ><title>Map from array.map</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(357.79,75.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Verdana" >Map from array.map ($size)</tspan></text>
+	<g transform="translate(290.67,75.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >Map from array.map</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0,   0, 255)'  d='M366.18,72.01 L408.74,72.01 M180.04,542.10 L338.60,538.04 L497.16,486.73 L602.86,88.93 M180.04,541.95 L338.60,537.04
-		L497.16,473.07 L602.86,90.45 M180.04,542.33 L338.60,541.76 L497.16,536.76 L602.86,473.84  '/>	<use xlink:href='#gpPt0' transform='translate(180.04,542.10) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(338.60,538.04) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(497.16,486.73) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(602.86,88.93) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<path stroke='rgb(  0,   0, 255)'  d='M299.06,72.01 L341.62,72.01 M180.04,542.10 L338.60,537.96 L497.16,488.47 L602.86,82.09 M180.04,541.95 L338.60,537.00
+		L497.16,476.06 L602.86,86.94 M180.04,542.34 L338.60,541.73 L497.16,535.64 L602.86,472.64  '/>	<use xlink:href='#gpPt0' transform='translate(180.04,542.10) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(338.60,537.96) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(497.16,488.47) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(602.86,82.09) scale(4.50)' color='rgb(  0,   0, 255)'/>
 	<use xlink:href='#gpPt0' transform='translate(180.04,541.95) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(338.60,537.04) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(497.16,473.07) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(602.86,90.45) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(180.04,542.33) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(338.60,541.76) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(497.16,536.76) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(602.86,473.84) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt0' transform='translate(387.46,72.01) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(338.60,537.00) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(497.16,476.06) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(602.86,86.94) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(180.04,542.34) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(338.60,541.73) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(497.16,535.64) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(602.86,472.64) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt0' transform='translate(320.34,72.01) scale(4.50)' color='rgb(  0,   0, 255)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_2" ><title>Map from array.values.map ($size)</title>
+	<g id="gnuplot_plot_2" ><title>Map from array.values.map</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(357.79,93.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Verdana" >Map from array.values.map ($size)</tspan></text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 255,   0)'  d='M366.18,90.01 L408.74,90.01 M180.04,541.95 L338.60,537.04 L497.16,473.07 L602.86,90.45 M180.04,542.33 L338.60,541.76
-		L497.16,536.76 L602.86,473.84  '/>	<use xlink:href='#gpPt1' transform='translate(180.04,541.95) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(338.60,537.04) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(497.16,473.07) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(602.86,90.45) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(180.04,542.33) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(338.60,541.76) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(497.16,536.76) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(602.86,473.84) scale(4.50)' color='rgb(  0, 255,   0)'/>
-	<use xlink:href='#gpPt1' transform='translate(387.46,90.01) scale(4.50)' color='rgb(  0, 255,   0)'/>
-</g>
-	</g>
-	<g id="gnuplot_plot_3" ><title>Map from for-of-loop ($size)</title>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(357.79,111.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Verdana" >Map from for-of-loop ($size)</tspan></text>
+	<g transform="translate(290.67,93.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >Map from array.values.map</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(255,   0,   0)'  d='M366.18,108.01 L408.74,108.01 M180.04,542.33 L338.60,541.76 L497.16,536.76 L602.86,473.84  '/>	<use xlink:href='#gpPt2' transform='translate(180.04,542.33) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt2' transform='translate(338.60,541.76) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt2' transform='translate(497.16,536.76) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt2' transform='translate(602.86,473.84) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt2' transform='translate(387.46,108.01) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<path stroke='rgb(  0, 255,   0)'  d='M299.06,90.01 L341.62,90.01 M180.04,541.95 L338.60,537.00 L497.16,476.06 L602.86,86.94 M180.04,542.34 L338.60,541.73
+		L497.16,535.64 L602.86,472.64  '/>	<use xlink:href='#gpPt1' transform='translate(180.04,541.95) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(338.60,537.00) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(497.16,476.06) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(602.86,86.94) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(180.04,542.34) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(338.60,541.73) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(497.16,535.64) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(602.86,472.64) scale(4.50)' color='rgb(  0, 255,   0)'/>
+	<use xlink:href='#gpPt1' transform='translate(320.34,90.01) scale(4.50)' color='rgb(  0, 255,   0)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_3" ><title>Map from for-of-loop</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(290.67,111.91)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >Map from for-of-loop</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(255,   0,   0)'  d='M299.06,108.01 L341.62,108.01 M180.04,542.34 L338.60,541.73 L497.16,535.64 L602.86,472.64  '/>	<use xlink:href='#gpPt2' transform='translate(180.04,542.34) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt2' transform='translate(338.60,541.73) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt2' transform='translate(497.16,535.64) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt2' transform='translate(602.86,472.64) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt2' transform='translate(320.34,108.01) scale(4.50)' color='rgb(255,   0,   0)'/>
 </g>
 	</g>
 <g fill="none" color="white" stroke="rgb(255,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">

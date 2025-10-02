@@ -23,7 +23,7 @@ console.log(await ejs.renderFile(templatePath, data, {}));
 
 function processBenchmark({ runs, alias, args }) {
   return {
-    name: alias,
+    name: alias.replace(/ \(.*\)/, ""),
     points: runs.map((run) => [
       run.args[data.xlabel],
       run.stats.avg / 1_000_000,
