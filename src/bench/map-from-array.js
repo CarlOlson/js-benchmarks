@@ -38,6 +38,26 @@ lineplot(() => {
       return map;
     };
   }).range("size", 4096, 1024 ** 2);
+
+  bench("Map from builder ($size)", function* (state) {
+    const size = state.get("size");
+    const input = Array.from({ length: size }).map((_, index) => ({
+      index,
+    }));
+    shuffle(input);
+
+    function builder(arr, fn) {
+      const map = new Map();
+      // It is important that this function is outside of the loop!
+      const mapset = (k, v) => map.set(k, v);
+      for (const x of arr) {
+        fn(x, mapset);
+      }
+      return map;
+    }
+
+    yield () => builder(input, (x, mapset) => mapset(x.input, x));
+  }).range("size", 4096, 1024 ** 2);
 });
 
 await run({ format: isInteractive() ? "mitata" : "json" });
