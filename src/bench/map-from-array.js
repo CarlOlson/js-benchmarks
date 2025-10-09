@@ -33,7 +33,7 @@ lineplot(() => {
     yield () => {
       const map = new Map();
       for (const x of input) {
-        map.set(x.input, x);
+        map.set(x.index, x);
       }
       return map;
     };
@@ -56,7 +56,7 @@ lineplot(() => {
       return map;
     }
 
-    yield () => builder(input, (x, mapset) => mapset(x.input, x));
+    yield () => builder(input, (x, mapset) => mapset(x.index, x));
   }).range("size", 4096, 1024 ** 2);
 });
 

@@ -1,15 +1,16 @@
-$data << END<% runs.forEach(({points}, index) => { %>
-# <%= index+1 %>
+<% runs.forEach(({points}, index) => { %>
+$data<%= index+1 %> << END
 # X Y<% points.forEach(([x, y]) => { %>
 <%= x %> <%= y %><% }) %>
-<% }) %>END
+END
+<% }) %>
 
 # IBM palette, colorblind accessible
-set style line 1 linecolor rgb '#dc267f' linetype 1 linewidth 1 pointtype 1 pointsize 1
-set style line 2 linecolor rgb '#785ef0' linetype 1 linewidth 1 pointtype 2 pointsize 1
-set style line 3 linecolor rgb '#ffb000' linetype 1 linewidth 1 pointtype 3 pointsize 1
-set style line 4 linecolor rgb '#648fff' linetype 1 linewidth 1 pointtype 3 pointsize 1
-set style line 5 linecolor rgb '#fe6100' linetype 1 linewidth 1 pointtype 3 pointsize 1
+set style line 1 linecolor rgb '#dc267f' linewidth 1 pointtype 9 pointsize 1
+set style line 2 linecolor rgb '#785ef0' linewidth 1 pointtype 7 pointsize 1
+set style line 3 linecolor rgb '#ffb000' linewidth 1 pointtype 5 pointsize 1
+set style line 4 linecolor rgb '#648fff' linewidth 1 pointtype 13 pointsize 1
+set style line 5 linecolor rgb '#fe6100' linewidth 1 pointtype 11 pointsize 1
 
 set terminal svg size 800,600 enhanced font 'Verdana,12'
 
@@ -29,4 +30,4 @@ set xtics (<%= xtics.join(", ") %>)
 set title '<%= title %>'
 
 plot \<% runs.forEach(({name}, index) => { %>
-  $data index '<%= index+1 %>' title '<%= name %>' with linespoints linestyle <%= index+1 %><%= index < (runs.length - 1) ? ", \\" : "" %><% }) %>
+  $data<%= index+1 %> title '<%= name %>' with linespoints linestyle <%= index+1 %><%= index < (runs.length - 1) ? ", \\" : "" %><% }) %>

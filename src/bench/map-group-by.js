@@ -27,7 +27,7 @@ lineplot(() => {
     yield () => {
       const map = new Map();
       for (const x of input) {
-        const key = x.input % groups;
+        const key = x.index % groups;
         const value = map.get(key);
         if (value) {
           value.push(x);
