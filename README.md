@@ -45,3 +45,19 @@ However, the benefit is not large:
 It will be worth investigating performance again when
 [getOrInsert](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsert#browser_compatibility)
 is supported in Node.
+
+## Dynamic vs preallocation
+
+Whenever possible preallocation should be used instead of `push` or `shift`:
+
+```js
+const arr = new Array(size);
+```
+
+![preallocation](./images/preallocation.svg)
+
+## Closures
+
+Since around 2018 there is no longer a penalty for using closures:
+
+![closures](./images/closures.svg)
