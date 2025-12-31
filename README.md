@@ -61,3 +61,9 @@ const arr = new Array(size);
 Since around 2018 there is no longer a penalty for using closures:
 
 ![closures](./images/closures.svg)
+
+## Number conversion
+
+`+x`, `Number(x)`, and `parseFloat(x)` are all about the same performance.  `+x` and `Number(x)` are the same operation, but `parseFloat` has different semantics.
+
+![number-conversion](./images/number-conversion.svg)
