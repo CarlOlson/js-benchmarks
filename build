@@ -24,7 +24,7 @@ trap cleanup EXIT
 
 sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 
-for f in ./src/bench/*.js; do
+for f in ${1:-./src/bench/*.js}; do
     echo "Running $f"
     title=`basename -s .js "$f"`
     yarn node --expose-gc --allow-natives-syntax "$f" \
